@@ -527,7 +527,6 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1680px) {
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1752,7 +1751,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 320px) {
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2502,6 +2500,10 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
+
+			.inner.img{
+				width: 70%;
+			}
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
