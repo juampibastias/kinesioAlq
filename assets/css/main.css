@@ -3103,6 +3103,12 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+	@media screen and (max-width: 736px) {
+		.hader.logo {
+			width: 100%;
+		}
+	}
+
 /* Footer */
 
 	#footer {
