@@ -8,15 +8,35 @@
     />
     <title>Kinesio Alq</title>
     <style>
+      #whatsapp-float {
+        position: fixed;
+        bottom: 5rem;
+        right: 5rem;
+        animation: pulsate 2s ease-in-out infinite;
+      }
+
+      @keyframes pulsate {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
       @media (max-width: 768px) {
+        #whatsapp-float{
+          margin-right: -2.5rem;
+        }
         .logo {
           width: 85% !important;
-          margin-right: 40px;
-          mergin-left: -10px;
+          margin-right: 80px;
         }
         .boxygym {
-			margin-top: 3rem;
-		}
+          margin-top: 3rem;
+        }
       }
     </style>
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -165,20 +185,20 @@
             camillas cómodas, percheros para su comodidad, un sistema de aire
             acondicionado con regulación de temperatura y una iluminación
             ajustable para crear un ambiente ideal. Además, ponemos a su
-            disposición equipos de rehabilitación Meditea. Nuestros
-            box, también contamos con un amplio gimnasio diseñado especialmente
-            para la rehabilitación terapéutica. Este espacio cuenta con las
-            dimensiones adecuadas para realizar ejercicios terapéuticos de
-            manera cómoda y efectiva. Los espejos instalados en el gimnasio
-            permiten una supervisión precisa de los movimientos, optimizando el
-            proceso de recuperación. Al igual que en los box, el gimnasio está
-            equipado con aire acondicionado, proporcionando un ambiente
-            confortable durante las sesiones de entrenamiento. En nuestro
-            gimnasio también ofrecemos la posibilidad de clases grupales,
-            brindando flexibilidad y adaptabilidad para satisfacer las
-            necesidades de nuestros profesionales y pacientes. Si se requiere un
-            espacio completamente libre para las clases grupales, podemos
-            acomodar esta solicitud de manera eficiente.
+            disposición equipos de rehabilitación Meditea. Nuestros box, también
+            contamos con un amplio gimnasio diseñado especialmente para la
+            rehabilitación terapéutica. Este espacio cuenta con las dimensiones
+            adecuadas para realizar ejercicios terapéuticos de manera cómoda y
+            efectiva. Los espejos instalados en el gimnasio permiten una
+            supervisión precisa de los movimientos, optimizando el proceso de
+            recuperación. Al igual que en los box, el gimnasio está equipado con
+            aire acondicionado, proporcionando un ambiente confortable durante
+            las sesiones de entrenamiento. En nuestro gimnasio también ofrecemos
+            la posibilidad de clases grupales, brindando flexibilidad y
+            adaptabilidad para satisfacer las necesidades de nuestros
+            profesionales y pacientes. Si se requiere un espacio completamente
+            libre para las clases grupales, podemos acomodar esta solicitud de
+            manera eficiente.
           </div>
           <div class="col-4 col-12-medium" style="margin-top: 3rem">
             <span class="image fit"
@@ -189,8 +209,8 @@
               Nuestra sala de espera está diseñada para brindarles una
               experiencia cómoda y segura mientras esperan. Disfruten del
               ambiente climatizado y la conveniencia de nuestro dispensador de
-              agua fría y caliente. La sala de espera puede acomodar hasta 4 pacientes,
-              asegurando tiempos de espera mínimos y una atención más
+              agua fría y caliente. La sala de espera puede acomodar hasta 4
+              pacientes, asegurando tiempos de espera mínimos y una atención más
               personalizada.
             </p>
           </div>
@@ -223,7 +243,7 @@
                 <td style="white-space: nowrap">$10.000</td>
               </tr>
             </table>
-              <p style="white-space: nowrap"><b>Horarios disponibles</b></p>
+            <p style="white-space: nowrap"><b>Horarios disponibles</b></p>
             <table>
               <tr>
                 <td style="white-space: nowrap">De 8hs a 14hs</td>
@@ -237,11 +257,12 @@
               <tr>
                 <td style="white-space: nowrap">Minímo 3 hs</td>
                 <td style="white-space: nowrap">$2000 x hora</td>
-<tr>
-<td style="white-space: nowrap">
-                  6hs una vez a la mes
-                </td>
-                <td style="white-space: nowrap">$3500</td>              </tr>
+              </tr>
+
+              <tr>
+                <td style="white-space: nowrap">6hs una vez a la mes</td>
+                <td style="white-space: nowrap">$3500</td>
+              </tr>
             </table>
             <a href="https://wa.me/5492634631033" target="_blank">
               <button style="display: block; margin: 0 auto">Alquilar</button>
@@ -249,7 +270,7 @@
           </div>
           <div class="col-4 col-12-medium">
             <h3 class="boxygym" style="text-align: center">Box y Gimnasio</h3>
-            <table style="text-align: center;">
+            <table style="text-align: center">
               <tr>
                 <td style="white-space: nowrap">Consultar</td>
               </tr>
@@ -265,7 +286,21 @@
           <b>Revisa nuestra disponibilidad de horarios</b>
         </h3>
         <iframe
-          src="https://calendar.google.com/calendar/embed?src=a047bf8ac8e3bf05506e671ed78f6b053ae2c786aeb277173e9ddc6448eb95fa%40group.calendar.google.com&ctz=America%2FArgentina%2FMendoza&mode=AGENDA"
+          src="https://calendar.google.com/calendar/embed?src=a047bf8ac8e3bf05506e671ed78f6b053ae2c786aeb277173e9ddc6448eb95fa%40group.calendar.google.com&ctz=America%2FArgentina%2FMendoza&mode=WEEK"
+          style="
+            border: 0;
+            width: 100%;
+            height: 600px;
+            max-width: 800px;
+            margin: 30px auto 0;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+          "
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+        <iframe
+          src="https://calendar.google.com/calendar/embed?src=47ef1bdfc4b96df0a51ab21a06f1d5c9caabbe25eb59fc0c5030e4d5779dd769%40group.calendar.google.com&ctz=America%2FArgentina%2FMendoza&mode=WEEK"
           style="
             border: 0;
             width: 100%;
@@ -305,6 +340,18 @@
           </li>
         </ul>
       </div>
+    </section>
+    <section
+      id="whatsapp-float"
+      style="position: fixed; bottom: 5rem; right: 5rem"
+    >
+      <a href="https://wa.me/5492634631033" target="_blank" style="border-bottom: none;">
+        <img
+          src="/images/whatsapp.png"
+          alt="WhatsApp Icon"
+          style="width: 50px; height: 50px;"
+        />
+      </a>
     </section>
 
     <!-- Footer -->
