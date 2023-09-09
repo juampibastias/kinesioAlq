@@ -27,7 +27,7 @@
         }
       }
       @media (max-width: 768px) {
-        #whatsapp-float{
+        #whatsapp-float {
           margin-right: -2.5rem;
         }
         .logo {
@@ -43,6 +43,17 @@
     <noscript>
       <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+    <!-- Agrega estas líneas en la sección head de tu archivo HTML -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
   </head>
 
   <body class="is-preload">
@@ -98,7 +109,7 @@
           </div>
           <div class="col-6 col-12-medium imp-medium">
             <span class="image fit"
-              ><img src="images/physio.jpg" alt=""
+              ><img src="images/kinesio-frente.png" alt=""
             /></span>
           </div>
         </div>
@@ -164,46 +175,46 @@
         <div class="row gtr-150">
           <div class="col-4 col-12-medium" style="margin-top: 3rem">
             <span class="image fit"
-              ><img
-                src="images/WhatsApp Image 2021-10-27 at 10.26.49.jpeg"
-                alt=""
-            /></span>
+              ><div class="slider">
+                <div><img src="images/consul1.png" alt="" /></div>
+                <div><img src="images/consul2.png" alt="" /></div>
+                <div><img src="images/consul3.png" alt="" /></div>
+              </div>
+            </span>
             <h3>Consultorio Privado</h3>
             <p>
               Este consultorio cuenta con escritorio con cajones, sillas para
               profesional y paciente, camilla, balanza, aire frío/calor,
-              modular.
+              modular. Hace clic en el boton + INFO para obtener mas
+              información.
             </p>
           </div>
           <div class="col-4 col-12-medium" style="margin-top: 3rem">
             <span class="image fit"
-              ><img src="images/20220204_083112.jpg" alt=""
-            /></span>
+              ><div class="slider">
+                <div><img src="images/gym1.png" alt="" /></div>
+                <div><img src="images/gym2.png" alt="" /></div>
+                <div><img src="images/gym3.png" alt="" /></div>
+                <div><img src="images/box1.png" alt="" /></div>
+                <div><img src="images/box2.png" alt="" /></div>
+              </div>
+            </span>
             <h3>Box y gimnasio</h3>
-            Nuestro centro cuenta con dos modernos box completamente equipados
-            para brindarle el mejor servicio. Cada box está provisto de 2
-            camillas cómodas, percheros para su comodidad, un sistema de aire
-            acondicionado con regulación de temperatura y una iluminación
-            ajustable para crear un ambiente ideal. Además, ponemos a su
-            disposición equipos de rehabilitación Meditea. Nuestros box, también
-            contamos con un amplio gimnasio diseñado especialmente para la
-            rehabilitación terapéutica. Este espacio cuenta con las dimensiones
-            adecuadas para realizar ejercicios terapéuticos de manera cómoda y
-            efectiva. Los espejos instalados en el gimnasio permiten una
-            supervisión precisa de los movimientos, optimizando el proceso de
-            recuperación. Al igual que en los box, el gimnasio está equipado con
-            aire acondicionado, proporcionando un ambiente confortable durante
-            las sesiones de entrenamiento. En nuestro gimnasio también ofrecemos
-            la posibilidad de clases grupales, brindando flexibilidad y
-            adaptabilidad para satisfacer las necesidades de nuestros
-            profesionales y pacientes. Si se requiere un espacio completamente
-            libre para las clases grupales, podemos acomodar esta solicitud de
-            manera eficiente.
+            Ofrecemos modernos box equipados con camillas, percheros, y aire
+            acondicionado ajustable. Además, proporcionamos equipos de
+            rehabilitación Meditea. Nuestro gimnasio está diseñado para
+            terapias, con espejos para supervisar movimientos y aire
+            acondicionado. Ofrecemos clases grupales y flexibilidad en un
+            espacio adaptable. Hace clic en el boton + INFO para obtener mas
+            información.
           </div>
           <div class="col-4 col-12-medium" style="margin-top: 3rem">
             <span class="image fit"
-              ><img src="images/20220204_083007.jpg" alt=""
-            /></span>
+              ><div class="slider">
+                <div><img src="images/sala1.png" alt="" /></div>
+                <div><img src="images/sala2.png" alt="" /></div>
+              </div>
+            </span>
             <h3>Sala de espera</h3>
             <p>
               Nuestra sala de espera está diseñada para brindarles una
@@ -211,7 +222,8 @@
               ambiente climatizado y la conveniencia de nuestro dispensador de
               agua fría y caliente. La sala de espera puede acomodar hasta 4
               pacientes, asegurando tiempos de espera mínimos y una atención más
-              personalizada.
+              personalizada. Hace clic en el boton + INFO para obtener mas
+              información.
             </p>
           </div>
         </div>
@@ -226,7 +238,11 @@
     </section>
 
     <!-- Five Page -->
-    <section id="five" class="main style1 special" style="padding-top: 10px; margin-bottom: 3rem;">
+    <section
+      id="five"
+      class="main style1 special"
+      style="padding-top: 10px; margin-bottom: 3rem"
+    >
       <div class="container">
         <header class="major">
           <h2><b>Disponibilidad y precios</b></h2>
@@ -345,11 +361,15 @@
       id="whatsapp-float"
       style="position: fixed; bottom: 5rem; right: 5rem"
     >
-      <a href="https://wa.me/5492634631033" target="_blank" style="border-bottom: none;">
+      <a
+        href="https://wa.me/5492634631033"
+        target="_blank"
+        style="border-bottom: none"
+      >
         <img
           src="./images/whatsapp.png"
           alt="WhatsApp Icon"
-          style="width: 50px; height: 50px;"
+          style="width: 50px; height: 50px"
         />
       </a>
     </section>
@@ -389,5 +409,15 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <!-- Agrega estas líneas antes del cierre del body de tu archivo HTML -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
   </body>
 </html>
